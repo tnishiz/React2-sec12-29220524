@@ -55,9 +55,9 @@ export const Header: VFC = memo(() => {
         <DrawerOverlay>
           <DrawerContent>
             <DrawerBody p={0} bg="gray.100">
-              <Button W="100%">TOP</Button>
-              <Button W="100%">ユーザ一覧</Button>
-              <Button W="100%">設定</Button>
+              <Button width="100%">TOP</Button>
+              <Button width="100%">ユーザ一覧</Button>
+              <Button width="100%">設定</Button>
             </DrawerBody>
           </DrawerContent>
         </DrawerOverlay>
